@@ -136,7 +136,8 @@ You will need:
 - 1x	Diode 1N4001
 - 3x	Diode 1N4148
 - 1x	FET IRF 4905
-- 2x	Resistor 1k
+- 1x	Resistor 1k
+- 1x	Resistor 100R
 - 1x	Resistor 100k
 - 1x	Resistor 33k
 - 2x	Capacitor 0,1uF (100nF), e.g. WIMA MKS2
