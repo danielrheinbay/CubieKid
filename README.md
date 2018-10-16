@@ -1,4 +1,4 @@
-# CubieKid <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a>
+# CubieKid 
 
 <img src="https://github.com/jenshackel/CubieKid/blob/master/photos/CubieKid.jpg" width="600">
 
@@ -34,7 +34,7 @@ Highlights:
 
 - Power-On with one of the three buttons
 
-- Auto-standby-function saves battery live by reducing current down to less than 0,25 mA
+- Auto-standby-function saves battery live by reducing current down to less than 0,03 mA
 
 - Battery voltage monitoring function with audio alert and shut-down
 
@@ -125,7 +125,7 @@ Use: Push the opening tool into the holes on one side of the box. Now pull the r
 
 <img src="https://github.com/jenshackel/CubieKid/blob/master/photos/PCB_2.jpg">
 
-You will need:
+You will need (for Rev.1.3):
 
 - 1x 	pcb "CubieKid"
 - 1x	Arduino Nano (clone)
@@ -134,13 +134,13 @@ You will need:
 - 1x	IC CD 4011 (DIL)
 - 1x	SD Card (up to 32GB)
 - 1x	Diode 1N4001
-- 3x	Diode 1N4148
+- 6x	Diode 1N4148
 - 1x	FET IRF 4905
-- 1x	Resistor 1k
-- 1x	Resistor 100R
+- 2x	Resistor 10k
+- 2x	Resistor 100R
 - 1x	Resistor 100k
-- 1x	Resistor 33k
-- 2x	Capacitor 0,1uF (100nF), e.g. WIMA MKS2
+- 1x	Resistor 1k
+- 1x	Capacitor 0,1uF (100nF), e.g. WIMA MKS2
 - 1x	Speaker (7cm diameter, 8 Ohms, 1...3 Watts)
 - 3x	24mm pushbuttons
 
@@ -150,13 +150,25 @@ Connecting cables, pinheaders, battery holder(s), 5 cm silver wire (0,8mm diamet
 
 
 
-The finished pcb looks like this:
+The finished pcb looks like this (Rev.1.2):
 
 <img src="https://github.com/jenshackel/CubieKid/blob/master/photos/PCB_assembly_2.jpg">
 
 It is small enough to be fitted on the upper half of the rear panel. So the access to the Micro-SD Card and USB-Port are easy. Make sure the connecting wires are long enough to open the panel.
 
 <img src="https://github.com/jenshackel/CubieKid/blob/master/photos/PCB_assembly.jpg">
+
+
+
+Update Rev. 1.3:
+
+In Revision 1.3 the power needed on standby was reduced down to less than 0.02mA (20 microamperes).
+
+R3 stays empty (no Bridge, no resistor)
+
+R6 most be a wire bridge or zero ohms resistor.
+
+As battery you can use either 4x 1,2V AA accu cells or 3x 1,5V batteries. Diode D1 (1N4001) acts as reverse battery protection and as overvoltage protection (if you use 4 accu cells and you put in 4 batteries by error). A 5V USB power bank should work too (not tested yet). But you will need an extra cable to connect the power bank to the power in pins.
 
 
 
