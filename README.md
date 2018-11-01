@@ -34,7 +34,7 @@ Highlights:
 
 - Power-On with one of the three buttons
 
-- Auto-standby-function saves battery live by reducing current down to less than 0,03 mA
+- Auto-standby-function saves battery live by reducing current down to just a few micro-amperes
 
 - Battery voltage monitoring function with audio alert and shut-down
 
@@ -123,7 +123,7 @@ Use: Push the opening tool into the holes on one side of the box. Now pull the r
 
 ### Electronic Assembly
 
-<img src="https://github.com/jenshackel/CubieKid/blob/master/photos/PCB_2.jpg">
+<img src="https://github.com/jenshackel/CubieKid/blob/master/photos/Platine1-3.jpg">
 
 You will need (for Rev.1.3):
 
@@ -141,8 +141,8 @@ You will need (for Rev.1.3):
 - 1x	Resistor 100k
 - 1x	Resistor 1k
 - 1x	Capacitor 0,1uF (100nF), e.g. WIMA MKS2
-- 1x	Speaker (7cm diameter, 8 Ohms, 1...3 Watts)
-- 3x	24mm pushbuttons
+- 1x	Speaker (about 7cm diameter, 8 Ohms, 1...3 Watts)
+- 3x	24mm arcade pushbuttons
 
 and:
 
@@ -152,7 +152,7 @@ Connecting cables, pinheaders, battery holder(s), 5 cm silver wire (0,8mm diamet
 
 The finished pcb looks like this (Rev.1.2):
 
-<img src="https://github.com/jenshackel/CubieKid/blob/master/photos/PCB_assembly_2.jpg">
+<img src="https://github.com/jenshackel/CubieKid/blob/master/photos/Platine1-3_1.jpg">
 
 It is small enough to be fitted on the upper half of the rear panel. So the access to the Micro-SD Card and USB-Port are easy. Make sure the connecting wires are long enough to open the panel.
 
@@ -168,7 +168,11 @@ R3 stays empty (no Bridge, no resistor)
 
 R6 most be a wire bridge or zero ohms resistor.
 
-As battery you can use either 4x 1,2V AA accu cells or 3x 1,5V batteries. Diode D1 (1N4001) acts as reverse battery protection and as overvoltage protection (if you use 4 accu cells and you put in 4 batteries by error). A 5V USB power bank should work too (not tested yet). But you will need an extra cable to connect the power bank to the power in pins.
+As battery you can use either 4x 1,2V AA accu cells or 3x 1,5V batteries. Diode D1 (1N4001) acts as reverse battery protection and as overvoltage protection (if you use 4 accu cells and you put in 4 batteries by error).  In the case that you use 4 battery cells (each 1.5V) you'll need diode D1 in place. For 3 cell configurations or 4 accu cells you install a wire bridge instead of D1.
+
+
+
+A 5V USB power bank should work too (not tested yet). But you will need an extra cable to connect the power bank to the power in pins. Be aware that most of the powerbanks have their own voltage monitoring. So they might switch off before any warning from CubieKid.
 
 
 
