@@ -150,7 +150,7 @@ Connecting cables, pinheaders, battery holder(s), 5 cm silver wire (0,8mm diamet
 
 
 
-The finished pcb looks like this (Rev.1.2):
+The finished pcb looks like this (Rev.1.3):
 
 <img src="https://github.com/jenshackel/CubieKid/blob/master/photos/Platine1-3_1.jpg">
 
