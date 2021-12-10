@@ -1,6 +1,6 @@
 # CubieKid 
 
-<img src="https://github.com/jenshackel/CubieKid/blob/master/photos/CubieKid.jpg" width="600">
+<img src="photos/CubieKid.jpg" width="600">
 
 ## A cute MP3 player project - made-to-measure (small) children's needs.
 
@@ -16,13 +16,13 @@ This housing can be made from medium density fibreboard with a thickness of 3mm 
 
 I'm using a homemade CNC-mill ([Make: MaXYposi](https://www.heise.de/make/artikel/MaXYposi-Projektseite-zum-universellen-XY-Portalroboter-von-Make-3676050.html)) which works well. But you can use a Laser Cutting Device as well.
 
-<img src="https://github.com/jenshackel/CubieKid/blob/master/photos/CubieKid_1.jpg" width="500">
+<img src="photos/CubieKid_1.jpg" width="500">
 
 
 
 ### Electronics
 
-<img src="https://github.com/jenshackel/CubieKid/blob/master/photos/PCB_2.jpg">
+<img src="photos/PCB_2.jpg">
 
 The newest upgrade is an optimized circuit and the associated single-sided pcb. So the reproduction is easy and inexpensive.
 
@@ -43,7 +43,7 @@ Highlights:
 
 Please follow the instructions step by step to build a good looking and stable box.
 
-<img src="https://github.com/jenshackel/CubieKid/blob/master/photos/Wooden_parts.jpg">
+<img src="photos/Wooden_parts.jpg">
 
 
 
@@ -53,7 +53,7 @@ Cut out all parts. You need medium density fibreboard with a thickness of 3mm. H
 
 
 
-<img src="https://github.com/jenshackel/CubieKid/blob/master/photos/Parts-Survey-V1-0.jpg">
+<img src="photos/Parts-Survey-V1-0.jpg">
 
 
 
@@ -75,13 +75,13 @@ Take two different side panels and glue them together. Continue with the remaini
 
 The speaker will be glued (hot-glue) on a second speaker grid which makes the speaker scoop-proof.
 
-<img src="https://github.com/jenshackel/CubieKid/blob/master/photos/Speaker_Grid_1.jpg">
+<img src="photos/Speaker_Grid_1.jpg">
 
-<img src="https://github.com/jenshackel/CubieKid/blob/master/photos/Speaker_Grid_2.jpg">
+<img src="photos/Speaker_Grid_2.jpg">
 
  I am using a recycled speaker (out of an old amateur radio) with 7 cm diameter and 1 Watt power. The speaker grid has two adjusting-notches which should fit the corresponding notches on the inner front panel.
 
-<img src="https://github.com/jenshackel/CubieKid/blob/master/photos/Speaker_Installation_1.jpg">
+<img src="photos/Speaker_Installation_1.jpg">
 
 #### Back panel (Service Access)
 
@@ -89,11 +89,11 @@ Now you can start to assemble the back-cover with the locking function. Take the
 
 Glue the two long rectangular parts to the inner side of the back panel. They will keep the back panel in place, so they should be quite close to the upper / lower corner. Do NOT apply glue to the side facing the upper/lower panel – the back panel must be removable. Every box is a little bit different so it is the best to fix thr rear panel at the half-finished box (like at the photo) then glue in the rectangular parts and push them in the direction of the yellow arrows.
 
-<img src="https://github.com/jenshackel/CubieKid/blob/master/photos/Panel_assembly_1a.jpg">
+<img src="photos/Panel_assembly_1a.jpg">
 
 Now we need the two D-shaped sliders and the two smaller rectangular pieces. To make sure the slider’s function they probably need to be sandpapered to somewhat less than 3mm thickness.
 
-<img src="https://github.com/jenshackel/CubieKid/blob/master/photos/Panel_assembly_1.jpg">
+<img src="photos/Panel_assembly_1.jpg">
 
 Put the siders on the inner side of the back panel – the rounded corners must face outside. Do NOT glue them. Put a small rectangular piece into each D-hole. Find a position where the slider is able to slide out about 4-5mm, then glue the rectangular piece to the back panel. The small rectangular pieces act as stoppers protecting the sliders from being pushed out too far.
 
@@ -101,7 +101,7 @@ Now we have a nice little two-sided sliding mechanism. To apply the mechanical f
 
 Remove the handles of the foldback-clip and discard the black metal part. We’ll only need the handles. Insert the handles between the sliders -the open sides must face the center.
 
-<img src="https://github.com/jenshackel/CubieKid/blob/master/photos/Panel_assembly_2.jpg">
+<img src="photos/Panel_assembly_2.jpg">
 
 Now attach the inner panel (that one with four small holes) with small screws.
 
@@ -109,7 +109,7 @@ Your back panel is now ready to be snapped into position. But be aware: You’ll
 
 #### Opening Tool
 
-<img src="https://github.com/jenshackel/CubieKid/blob/master/photos/Opening_tool.jpg">
+<img src="photos/Opening_tool.jpg">
 
 To open the rear panel you will need an opening tool. Take a piece of wood or aluminium (length: about 9cm) and drill two 4mm holes (space center/center: 60mm). Insert a M4 screw* into each hole and fix it with a M4 nut. 
 
@@ -117,13 +117,13 @@ To open the rear panel you will need an opening tool. Take a piece of wood or al
 
 Use: Push the opening tool into the holes on one side of the box. Now pull the rear panel away from the box at that side you attached the tool. It will work on both sides (some kind of redundancy thanks to the use of the same part on both sides).
 
-<img src="https://github.com/jenshackel/CubieKid/blob/master/photos/Insert_Opening-Tool.jpg">
+<img src="photos/Insert_Opening-Tool.jpg">
 
 
 
 ### Electronic Assembly
 
-<img src="https://github.com/jenshackel/CubieKid/blob/master/photos/Platine1-3.jpg">
+<img src="photos/Platine1-3.jpg">
 
 You will need (for Rev.1.3):
 
@@ -152,11 +152,11 @@ Connecting cables, pinheaders, battery holder(s), 5 cm silver wire (0,8mm diamet
 
 The finished pcb looks like this (Rev.1.3):
 
-<img src="https://github.com/jenshackel/CubieKid/blob/master/photos/Platine1-3_1.jpg">
+<img src="photos/Platine1-3_1.jpg">
 
 It is small enough to be fitted on the upper half of the rear panel. So the access to the Micro-SD Card and USB-Port are easy. Make sure the connecting wires are long enough to open the panel.
 
-<img src="https://github.com/jenshackel/CubieKid/blob/master/photos/PCB_assembly.jpg">
+<img src="photos/PCB_assembly.jpg">
 
 
 
